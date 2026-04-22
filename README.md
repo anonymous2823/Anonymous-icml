@@ -101,7 +101,6 @@ Most runtime behavior is controlled from `SciUnlearn/config.py` through the `App
 - export names,
 - and threshold settings for similarity, coverage, and OLMo agreement.
 
-If you want to change the pipeline without editing code, start there.
 
 ## Notes
 
