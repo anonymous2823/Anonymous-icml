@@ -1,0 +1,47 @@
+{
+  "export_dir": "common_exports",
+  "inputs": {
+    "forget": "forget_common_3.json",
+    "retain_external": "retain_external_common_3.json",
+    "retain_internal": "retain_internal_common_3.json",
+    "derived": "derived_common_3.json"
+  },
+  "datasets": [
+    {
+      "dataset": "forget_sc_1",
+      "row_count": 536,
+      "output_jsonl": "common_exports\\forget_sc_1.jsonl",
+      "output_parquet": "common_exports\\forget_sc_1.parquet"
+    },
+    {
+      "dataset": "forget_sc_2",
+      "row_count": 536,
+      "output_jsonl": "common_exports\\forget_sc_2.jsonl",
+      "output_parquet": "common_exports\\forget_sc_2.parquet"
+    },
+    {
+      "dataset": "retain_external_sc",
+      "row_count": 1060,
+      "output_jsonl": "common_exports\\retain_external_sc.jsonl",
+      "output_parquet": "common_exports\\retain_external_sc.parquet"
+    },
+    {
+      "dataset": "retain_internal_sc",
+      "row_count": 418,
+      "output_jsonl": "common_exports\\retain_internal_sc.jsonl",
+      "output_parquet": "common_exports\\retain_internal_sc.parquet"
+    },
+    {
+      "dataset": "retain_sc",
+      "row_count": 1478,
+      "output_jsonl": "common_exports\\retain_sc.jsonl",
+      "output_parquet": "common_exports\\retain_sc.parquet"
+    },
+    {
+      "dataset": "derived_sc",
+      "row_count": 586,
+      "output_jsonl": "common_exports\\derived_sc.jsonl",
+      "output_parquet": "common_exports\\derived_sc.parquet"
+    }
+  ]
+}
