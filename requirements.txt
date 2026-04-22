@@ -1,0 +1,15 @@
+requests
+litellm
+PyPDF2
+PyMuPDF
+python-dotenv
+torch
+transformers
+accelerate
+sentencepiece
+pyarrow
+sentence-transformers
+scikit-learn
+numpy
+scipy
+matplotlib

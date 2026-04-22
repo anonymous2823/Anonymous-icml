@@ -1,1 +1,10 @@
 venv
+SciUnlearn/.env
+SciUnlearn/Downloaded_paper_forget
+SciUnlearn/Downloaded_paper_retain
+SciUnlearn/plots
+SciUnlearn/reports
+SciUnlearn/run_all.py
+SciUnlearn/olmo_run.py
+SciUnlearn/llm_evaluation_report.py
+SciUnlearn/clone_with_human_scores.py

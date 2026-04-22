@@ -1,0 +1,402 @@
+{
+  "254974601": {
+    "title": "Federated Deep Reinforcement Learning for Open RAN Slicing in 6G Networks",
+    "year": 2022
+  },
+  "255186557": {
+    "title": "Web-Based Volunteer Distributed Computing for Handling Time-Critical Urgent Workloads",
+    "year": 2022
+  },
+  "254974466": {
+    "title": "A topological analysis of cointegrated data: a Z24 Bridge case study",
+    "year": 2022
+  },
+  "254877345": {
+    "title": "ADAS: A Simple Active-and-Adaptive Baseline for Cross-Domain 3D Semantic Segmentation",
+    "year": 2022
+  },
+  "254974420": {
+    "title": "Predicting Companies' ESG Ratings from News Articles Using Multivariate Timeseries Analysis",
+    "year": 2022
+  },
+  "254926322": {
+    "title": "Semi-Supervised Learning of Monocular Depth Estimation via Consistency Regularization with K-way Disjoint Masking",
+    "year": 2022
+  },
+  "254786477": {
+    "title": "Bayesian optimization with partially specified queries",
+    "year": 2022
+  },
+  "255096484": {
+    "title": "Push-the-Boundary: Boundary-aware Feature Propagation for Semantic Segmentation of 3D Point Clouds",
+    "year": 2022
+  },
+  "254853848": {
+    "title": "Personalized Federated Recommender Systems with Private and Partially Federated AutoEncoders",
+    "year": 2022
+  },
+  "254877236": {
+    "title": "Neural Network Learner for Minesweeper",
+    "year": 2022
+  },
+  "255186619": {
+    "title": "Progressive Backdoor Erasing via connecting Backdoor and Adversarial Attacks",
+    "year": 2022
+  },
+  "255185982": {
+    "title": "Sensing-Throughput Tradeoffs with Generative Adversarial Networks for NextG Spectrum Sharing",
+    "year": 2022
+  },
+  "254823425": {
+    "title": "Foresight - Deep Generative Modelling of Patient Timelines using Electronic Health Records",
+    "year": 2022
+  },
+  "254853871": {
+    "title": "Difformer: Empowering Diffusion Model on Embedding Space for Text Generation",
+    "year": 2022
+  },
+  "255068683": {
+    "title": "A model of checkpoint behavior for applications that have I/O",
+    "year": 2022
+  },
+  "255096252": {
+    "title": "Comparison of Three Job Mapping Algorithms for Supercomputer Resource Managers",
+    "year": 2022
+  },
+  "254854178": {
+    "title": "Deep-Learning-Assisted IoT-Based RIS for Cooperative Communications",
+    "year": 2022
+  },
+  "254854493": {
+    "title": "Unsupervised Dense Retrieval Deserves Better Positive Pairs: Scalable Augmentation with Query Extraction and Generation",
+    "year": 2022
+  },
+  "255127167": {
+    "title": "Explainable depression detection with multi-aspect features using a hybrid deep learning model on social media",
+    "year": 2022
+  },
+  "254823635": {
+    "title": "Is it Required? Ranking the Skills Required for a Job-Title",
+    "year": 2022
+  },
+  "255315579": {
+    "title": "Real-time face alignment: evaluation methods, training strategies and implementation optimization",
+    "year": 2021
+  },
+  "254827938": {
+    "title": "Deep Learning Based Customer Preferences Analysis in Industry 4.0 Environment",
+    "year": 2021
+  },
+  "254795692": {
+    "title": "One-Stage Tree: end-to-end tree builder and pruner",
+    "year": 2021
+  },
+  "254865212": {
+    "title": "Online Support Vector Regression Based Adaptive NARMA-L2 Controller for Nonlinear Systems",
+    "year": 2021
+  },
+  "255129122": {
+    "title": "A Novel Coverage Improved Deployment Strategy for Wireless Sensor Network",
+    "year": 2021
+  },
+  "254870410": {
+    "title": "Enhancing spatial perception through sound: mapping human movements into MIDI",
+    "year": 2021
+  },
+  "254789105": {
+    "title": "AUTOMAT[R]IX: learning simple matrix pipelines",
+    "year": 2021
+  },
+  "254798709": {
+    "title": "How to measure uncertainty in uncertainty sampling for active learning",
+    "year": 2021
+  },
+  "254869347": {
+    "title": "Detection of agglomerate fog based on a shallow convolutional neural network",
+    "year": 2021
+  },
+  "254796633": {
+    "title": "ReliefE: feature ranking in high-dimensional spaces via manifold embeddings",
+    "year": 2021
+  },
+  "255132460": {
+    "title": "RoleSim*: Scaling axiomatic role-based similarity ranking on large graphs",
+    "year": 2021
+  },
+  "254823663": {
+    "title": "pfd-parallel, a Singular/GPI-Space package for massively parallel multivariate partial fractioning",
+    "year": 2021
+  },
+  "255125621": {
+    "title": "ModelPred: A Framework for Predicting Trained Model from Training Data",
+    "year": 2021
+  },
+  "255133161": {
+    "title": "A MECS redistribution algorithm for SDN-enable MEC using response time and transmission overhead",
+    "year": 2021
+  },
+  "255064946": {
+    "title": "MATTER: A tool for generating end-to-end IoT test scripts",
+    "year": 2021
+  },
+  "254823669": {
+    "title": "CORL: Compositional Representation Learning for Few-Shot Classification",
+    "year": 2021
+  },
+  "255128372": {
+    "title": "Event Distortion-Based Clustering Algorithm for Energy Harvesting Wireless Sensor Networks",
+    "year": 2021
+  },
+  "254864044": {
+    "title": "LSB steganography detection in monochromatic still images using artificial neural networks",
+    "year": 2021
+  },
+  "254873381": {
+    "title": "A machine learning based sentient multimedia framework to increase safety at work",
+    "year": 2021
+  },
+  "254876990": {
+    "title": "Social Influence Under Uncertainty in Interaction with Peers, Robots and Computers",
+    "year": 2021
+  },
+  "254867358": {
+    "title": "Image classification-based brain tumour tissue segmentation",
+    "year": 2020
+  },
+  "255074459": {
+    "title": "AI-based smart prediction of clinical disease using random forest classifier and Naive Bayes",
+    "year": 2020
+  },
+  "255015728": {
+    "title": "Analysis of the evolution and collaboration networks of citizen science scientific publications",
+    "year": 2020
+  },
+  "255011290": {
+    "title": "Cited text span identification for scientific summarisation using pre-trained encoders",
+    "year": 2020
+  },
+  "255067873": {
+    "title": "Hierarchical sparse Cholesky decomposition with applications to high-dimensional spatio-temporal filtering",
+    "year": 2020
+  },
+  "255071129": {
+    "title": "Ensemble Kalman filter based sequential Monte Carlo sampler for sequential Bayesian inference",
+    "year": 2020
+  },
+  "255064598": {
+    "title": "Equilibrium: an elasticity controller for parallel tree search in the cloud",
+    "year": 2020
+  },
+  "255105416": {
+    "title": "Using autoencoders for session-based job recommendations",
+    "year": 2020
+  },
+  "254862058": {
+    "title": "Human segmentation in surveillance video with deep learning",
+    "year": 2020
+  },
+  "255130239": {
+    "title": "A deep-learning model for urban traffic flow prediction with traffic events mined from twitter",
+    "year": 2020
+  },
+  "255108124": {
+    "title": "Fast and Accurate Edge Computing Energy Modeling and DVFS Implementation in GEM5 Using System Call Emulation Mode",
+    "year": 2020
+  },
+  "254986263": {
+    "title": "A machine learning approach to univariate time series forecasting of quarterly earnings",
+    "year": 2020
+  },
+  "254862095": {
+    "title": "A combination of CSP-based method with soft margin SVM classifier and generalized RBF kernel for imagery-based brain computer interface applications",
+    "year": 2020
+  },
+  "255153465": {
+    "title": "Bayesian estimation and likelihood-based comparison of agent-based volatility models",
+    "year": 2020
+  },
+  "255069947": {
+    "title": "Distributed deep learning platform for pedestrian detection on IT convergence environment",
+    "year": 2020
+  },
+  "255065993": {
+    "title": "Influenza-like illness prediction using a long short-term memory deep learning model with multiple open data sources",
+    "year": 2020
+  },
+  "255063493": {
+    "title": "Graph matching beyond perfectly-overlapping Erdős–Rényi random graphs",
+    "year": 2020
+  },
+  "255001157": {
+    "title": "Math-word embedding in math search and semantic extraction",
+    "year": 2020
+  },
+  "254859117": {
+    "title": "QoE of cross-modally mapped Mulsemedia: an assessment using eye gaze and heart rate",
+    "year": 2020
+  },
+  "254868612": {
+    "title": "On the influence of individual differences in cross-modal Mulsemedia QoE",
+    "year": 2020
+  },
+  "255168170": {
+    "title": "PenQuest: a gamified attacker/defender meta model for cyber security assessment and education",
+    "year": 2019
+  },
+  "255072127": {
+    "title": "Quality attribute trade-offs in the embedded systems industry: an exploratory case study",
+    "year": 2019
+  },
+  "255104450": {
+    "title": "Deep Insights into Convolutional Networks for Video Recognition",
+    "year": 2019
+  },
+  "255006769": {
+    "title": "The dynamics of collaboration networks and the history of general relativity, 1925–1970",
+    "year": 2019
+  },
+  "254944510": {
+    "title": "Simulating a rich ride-share mobility service using agent-based models",
+    "year": 2019
+  },
+  "254831212": {
+    "title": "A Multi-grained Log Auditing Scheme for Cloud Data Confidentiality",
+    "year": 2019
+  },
+  "254860042": {
+    "title": "Deep Transfer Learning for Image Emotion Analysis: Reducing Marginal and Joint Distribution Discrepancies Together",
+    "year": 2019
+  },
+  "255109342": {
+    "title": "Gameful Experience Questionnaire (GAMEFULQUEST): an instrument for measuring the perceived gamefulness of system use",
+    "year": 2019
+  },
+  "255162222": {
+    "title": "Correction of Scanning Electron Microscope Imaging Artifacts in a Novel Digital Image Correlation Framework",
+    "year": 2019
+  },
+  "255308724": {
+    "title": "A hybrid model for EEG-based gender recognition",
+    "year": 2019
+  },
+  "255015699": {
+    "title": "Detecting bursty terms in computer science research",
+    "year": 2019
+  },
+  "254868375": {
+    "title": "XOR-ed visual secret sharing scheme with robust and meaningful shadows based on QR codes",
+    "year": 2019
+  },
+  "255104250": {
+    "title": "Temporally Coherent General Dynamic Scene Reconstruction",
+    "year": 2019
+  },
+  "254870622": {
+    "title": "An automated methodology to select functional co-simulation configurations",
+    "year": 2019
+  },
+  "255101167": {
+    "title": "Refractive Two-View Reconstruction for Underwater 3D Vision",
+    "year": 2019
+  },
+  "255102740": {
+    "title": "Disentangling Geometry and Appearance with Regularised Geometry-Aware Generative Adversarial Networks",
+    "year": 2019
+  },
+  "254792008": {
+    "title": "Robust optimization and uncertainty quantification in the nonlinear mechanics of an elevator brake system",
+    "year": 2019
+  },
+  "254838971": {
+    "title": "Disk Cluster Allocation Behavior in Windows and NTFS",
+    "year": 2019
+  },
+  "254861937": {
+    "title": "A new design for cubic spatially processed wideband arrays",
+    "year": 2019
+  },
+  "255073560": {
+    "title": "Local dimension reduction of summary statistics for likelihood-free inference",
+    "year": 2019
+  },
+  "254891718": {
+    "title": "GPU acceleration of splitting schemes applied to differential matrix equations",
+    "year": 2018
+  },
+  "255067925": {
+    "title": "Robust Bayesian model selection for variable clustering with the Gaussian graphical model",
+    "year": 2018
+  },
+  "255108773": {
+    "title": "Enabling connectivity for tactical networks in mountainous areas by aerial relays",
+    "year": 2018
+  },
+  "255101265": {
+    "title": "Person Re-identification in Identity Regression Space",
+    "year": 2018
+  },
+  "255066938": {
+    "title": "A diachronic perspective on peer disagreement in veritistic social epistemology",
+    "year": 2018
+  },
+  "255101056": {
+    "title": "Face Mask Extraction in Video Sequence",
+    "year": 2018
+  },
+  "255138577": {
+    "title": "Reducing false wake-up in contention-based wake-up control of wireless LANs",
+    "year": 2018
+  },
+  "255105410": {
+    "title": "Probabilistic Approach Versus Machine Learning for One-Shot Quad-Tree Prediction in an Intra HEVC Encoder",
+    "year": 2018
+  },
+  "254837428": {
+    "title": "QEX: target-specific druglikeness filter enhances ligand-based virtual screening",
+    "year": 2018
+  },
+  "254898186": {
+    "title": "An optimisation approach for pre-runtime scheduling of tasks and communication in an integrated modular avionic system",
+    "year": 2018
+  },
+  "255110733": {
+    "title": "An adaptive LTE listen-before-talk scheme towards a fair coexistence with Wi-Fi in unlicensed spectrum",
+    "year": 2018
+  },
+  "254837053": {
+    "title": "Providing Reliable Communications over Static-node-assisted Vehicular Networks Using Distance-vector Routing",
+    "year": 2018
+  },
+  "255306482": {
+    "title": "Estimation of and correction for finite motion sampling errors in small animal PET rigid motion correction",
+    "year": 2018
+  },
+  "254859558": {
+    "title": "Discovering the Hidden Community Structure of Public Transportation Networks",
+    "year": 2018
+  },
+  "255318841": {
+    "title": "In vivo estimation of passive biomechanical properties of human myocardium",
+    "year": 2018
+  },
+  "254856689": {
+    "title": "A Novel Gaussian–Bernoulli Based Convolutional Deep Belief Networks for Image Feature Extraction",
+    "year": 2018
+  },
+  "254859111": {
+    "title": "Predicting user demographics from music listening information",
+    "year": 2018
+  },
+  "254988151": {
+    "title": "Approximation of quantum control correction scheme using deep neural networks",
+    "year": 2018
+  },
+  "255306526": {
+    "title": "A Lagrangian cylindrical coordinate system for characterizing dynamic surface geometry of tubular anatomic structures",
+    "year": 2018
+  },
+  "255314099": {
+    "title": "Automated segmentation of trabecular and cortical bone from proton density weighted MRI of the knee",
+    "year": 2018
+  }
+}

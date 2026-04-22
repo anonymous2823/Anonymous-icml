@@ -1,0 +1,29 @@
+{
+  "input_file": "claim_metric_verification_5papers_with_human.json",
+  "metric_pairs_used": 78,
+  "metric_entries_skipped_missing_human_score": 0,
+  "correlation_method": "Spearman rank correlation",
+  "why_this_method": "Scores are ordinal (0-5), so rank-based correlation is the appropriate default.",
+  "results": {
+    "accuracy": {
+      "n": 26,
+      "spearman_rho": 0.50709255283711,
+      "p_value": 0.008193596904659211
+    },
+    "independence": {
+      "n": 26,
+      "spearman_rho": 0.6666666666666665,
+      "p_value": 0.00020006932759227648
+    },
+    "clarity": {
+      "n": 26,
+      "spearman_rho": 0.6479499836303337,
+      "p_value": 0.00034481556749775994
+    },
+    "overall": {
+      "n": 78,
+      "spearman_rho": 0.580243256879688,
+      "p_value": 2.5795889821876372e-08
+    }
+  }
+}

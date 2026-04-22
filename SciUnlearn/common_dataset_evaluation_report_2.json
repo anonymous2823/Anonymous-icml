@@ -1,0 +1,1004 @@
+{
+  "paths": {
+    "forget": "forget_common_3.json",
+    "retain_external": "retain_external_common_3.json",
+    "retain_internal": "retain_internal_common_3.json",
+    "derived": "derived_common_3.json",
+    "forget_rejected": "forget_olmo_rejected_3.json",
+    "retain_external_rejected": "retain_external_olmo_rejected_3.json",
+    "retain_internal_rejected": "retain_internal_olmo_rejected_3.json",
+    "derived_rejected": "derived_olmo_rejected_3.json",
+    "year_index_dir": "year_wise_corpus_ids"
+  },
+  "year_index_file_counts": {
+    "2018": 1614,
+    "2019": 1428,
+    "2020": 1799,
+    "2021": 1463,
+    "2022": 3789
+  },
+  "datasets": {
+    "forget": {
+      "dataset": "forget",
+      "record_count": 76,
+      "unique_paper_ids": 76,
+      "duplicate_ids_count": 0,
+      "duplicate_ids_examples": [],
+      "year_distribution": {
+        "2022": 13,
+        "2021": 18,
+        "2020": 16,
+        "2019": 15,
+        "2018": 14
+      },
+      "missing_year_ids_count": 0,
+      "missing_year_ids_examples": [],
+      "total_claims": 170,
+      "claims_per_paper": {
+        "count": 76,
+        "mean": 2.236842105263158,
+        "median": 2.0,
+        "std": 1.3847707491497756,
+        "min": 1.0,
+        "max": 5.0,
+        "sum": 170.0
+      },
+      "verbatim_claims_per_paper": {
+        "count": 76,
+        "mean": 8.381578947368421,
+        "median": 7.5,
+        "std": 3.6525661680780495,
+        "min": 0.0,
+        "max": 21.0,
+        "sum": 637.0
+      },
+      "questions_per_paper": {
+        "count": 76,
+        "mean": 14.105263157894736,
+        "median": 10.0,
+        "std": 8.626121509645513,
+        "min": 4.0,
+        "max": 38.0,
+        "sum": 1072.0
+      },
+      "question_type_counts": {
+        "mcq": 276,
+        "true_false": 202,
+        "fill_blank": 254,
+        "assertion_reason": 340,
+        "total": 1072
+      },
+      "rejected_question_type_counts": {
+        "mcq": 47,
+        "true_false": 85,
+        "fill_blank": 59,
+        "assertion_reason": 0,
+        "total": 191
+      },
+      "rejected_questions_per_paper": {
+        "count": 53,
+        "mean": 3.6037735849056602,
+        "median": 3.0,
+        "std": 2.830691779183351,
+        "min": 1.0,
+        "max": 12.0,
+        "sum": 191.0
+      },
+      "forget_pair_split": {
+        "groups_total": 536,
+        "q1_counts": {
+          "mcq": 138,
+          "true_false": 101,
+          "fill_blank": 127,
+          "assertion_reason": 170,
+          "total": 536
+        },
+        "q2_counts": {
+          "mcq": 138,
+          "true_false": 101,
+          "fill_blank": 127,
+          "assertion_reason": 170,
+          "total": 536
+        },
+        "absolute_imbalance_total": 0,
+        "odd_groups_count": 0,
+        "odd_groups_examples": []
+      }
+    },
+    "retain_external": {
+      "dataset": "retain_external",
+      "record_count": 76,
+      "retain_survived_true": 76,
+      "retain_survived_false": 0,
+      "retain_paper_year_distribution": {
+        "2022": 5,
+        "2013": 2,
+        "2020": 6,
+        "2021": 3,
+        "2019": 7,
+        "2015": 9,
+        "2016": 8,
+        "2018": 8,
+        "2011": 4,
+        "2017": 9,
+        "2006": 2,
+        "2012": 2,
+        "2014": 4,
+        "2001": 1,
+        "2010": 1,
+        "2008": 1,
+        "2009": 2,
+        "2004": 1,
+        "1998": 1
+      },
+      "retain_paper_years_unresolved_count": 0,
+      "retain_paper_years_unresolved_examples": [],
+      "total_claims": 171,
+      "claims_per_paper": {
+        "count": 76,
+        "mean": 2.25,
+        "median": 1.0,
+        "std": 1.5485562036262919,
+        "min": 1.0,
+        "max": 5.0,
+        "sum": 171.0
+      },
+      "questions_per_paper": {
+        "count": 76,
+        "mean": 13.947368421052632,
+        "median": 8.0,
+        "std": 9.684353545854675,
+        "min": 4.0,
+        "max": 36.0,
+        "sum": 1060.0
+      },
+      "question_type_counts": {
+        "mcq": 284,
+        "true_false": 180,
+        "fill_blank": 254,
+        "assertion_reason": 342,
+        "total": 1060
+      },
+      "rejected_question_type_counts": {
+        "mcq": 42,
+        "true_false": 98,
+        "fill_blank": 59,
+        "assertion_reason": 0,
+        "total": 199
+      },
+      "rejected_questions_per_paper": {
+        "count": 59,
+        "mean": 3.3728813559322033,
+        "median": 3.0,
+        "std": 2.3208582945134157,
+        "min": 1.0,
+        "max": 10.0,
+        "sum": 199.0
+      }
+    },
+    "retain_internal": {
+      "dataset": "retain_internal",
+      "record_count": 76,
+      "internal_retain_survived_true": 76,
+      "internal_retain_survived_false": 0,
+      "year_distribution": {
+        "2022": 13,
+        "2021": 18,
+        "2020": 16,
+        "2019": 15,
+        "2018": 14
+      },
+      "missing_year_anchor_ids_count": 0,
+      "missing_year_anchor_ids_examples": [],
+      "total_claims": 170,
+      "claims_per_paper": {
+        "count": 76,
+        "mean": 2.236842105263158,
+        "median": 2.0,
+        "std": 1.3847707491497756,
+        "min": 1.0,
+        "max": 5.0,
+        "sum": 170.0
+      },
+      "questions_per_paper": {
+        "count": 76,
+        "mean": 5.5,
+        "median": 6.0,
+        "std": 0.9528351047490354,
+        "min": 3.0,
+        "max": 8.0,
+        "sum": 418.0
+      },
+      "question_type_counts": {
+        "mcq": 129,
+        "true_false": 126,
+        "fill_blank": 11,
+        "assertion_reason": 152,
+        "total": 418
+      },
+      "rejected_question_type_counts": {
+        "mcq": 23,
+        "true_false": 26,
+        "fill_blank": 141,
+        "assertion_reason": 0,
+        "total": 190
+      },
+      "rejected_questions_per_paper": {
+        "count": 75,
+        "mean": 2.533333333333333,
+        "median": 2.0,
+        "std": 0.9140872800534725,
+        "min": 1.0,
+        "max": 5.0,
+        "sum": 190.0
+      }
+    },
+    "derived": {
+      "dataset": "derived",
+      "record_count": 76,
+      "derived_survived_true": 76,
+      "derived_survived_false": 0,
+      "year_distribution": {
+        "2022": 13,
+        "2021": 18,
+        "2020": 16,
+        "2019": 15,
+        "2018": 14
+      },
+      "missing_year_anchor_ids_count": 0,
+      "missing_year_anchor_ids_examples": [],
+      "total_claims": 170,
+      "claims_per_paper": {
+        "count": 76,
+        "mean": 2.236842105263158,
+        "median": 2.0,
+        "std": 1.3847707491497756,
+        "min": 1.0,
+        "max": 5.0,
+        "sum": 170.0
+      },
+      "questions_per_paper": {
+        "count": 76,
+        "mean": 7.7105263157894735,
+        "median": 8.0,
+        "std": 1.326012914457276,
+        "min": 4.0,
+        "max": 10.0,
+        "sum": 586.0
+      },
+      "question_type_counts": {
+        "mcq": 173,
+        "true_false": 173,
+        "fill_blank": 12,
+        "assertion_reason": 228,
+        "total": 586
+      },
+      "rejected_question_type_counts": {
+        "mcq": 55,
+        "true_false": 55,
+        "fill_blank": 216,
+        "assertion_reason": 0,
+        "total": 326
+      },
+      "rejected_questions_per_paper": {
+        "count": 76,
+        "mean": 4.2894736842105265,
+        "median": 4.0,
+        "std": 1.326012914457276,
+        "min": 2.0,
+        "max": 8.0,
+        "sum": 326.0
+      },
+      "source_questions_per_paper": {
+        "count": 76,
+        "mean": 7.526315789473684,
+        "median": 8.0,
+        "std": 1.0696000754158723,
+        "min": 4.0,
+        "max": 8.0,
+        "sum": 572.0
+      },
+      "source_question_type_distribution": {
+        "mcq": 176,
+        "true_false": 112,
+        "fill_blank": 130,
+        "assertion_reason": 154
+      }
+    }
+  },
+  "forget_vs_retain_external_paper_overlap": {
+    "forget_paper_count": 76,
+    "retain_external_paper_count": 76,
+    "overlap_count": 0,
+    "overlap_ids_examples": [],
+    "has_overlap": false
+  },
+  "cost_statistics": {
+    "paths": {
+      "cost_log": "logs_2\\cost_log.jsonl",
+      "cost_log_retain": "logs_2\\cost_log_retain.jsonl"
+    },
+    "overall": {
+      "event_count": 2634,
+      "total_cost_summary": {
+        "count": 2634,
+        "sum": 41.25308624999993,
+        "mean": 0.01566176395216401,
+        "median": 0.0036637500000000003,
+        "std": 0.01893465560199232,
+        "min": 0.0009100000000000001,
+        "max": 0.10245125,
+        "p25": 0.00250375,
+        "p75": 0.0315490625,
+        "p90": 0.04498275,
+        "p95": 0.051420062499999995
+      },
+      "prompt_cost_summary": {
+        "count": 2634,
+        "sum": 6.488706249999979,
+        "mean": 0.002463442008352316,
+        "median": 0.0006900000000000001,
+        "std": 0.004332828534734571,
+        "min": 0.00032500000000000004,
+        "max": 0.02039875,
+        "p25": 0.00048375,
+        "p75": 0.0012175,
+        "p90": 0.012196750000000004,
+        "p95": 0.013561375
+      },
+      "completion_cost_summary": {
+        "count": 2634,
+        "sum": 34.76438000000008,
+        "mean": 0.013198321943811693,
+        "median": 0.00317,
+        "std": 0.016808619139190458,
+        "min": 0.00019,
+        "max": 0.08978,
+        "p25": 0.00189,
+        "p75": 0.02545,
+        "p90": 0.041163000000000026,
+        "p95": 0.0475535
+      }
+    },
+    "by_dataset": {
+      "forget": {
+        "event_count": 1086,
+        "total_cost_summary": {
+          "count": 1086,
+          "sum": 27.55022750000001,
+          "mean": 0.025368533609576426,
+          "median": 0.0276175,
+          "std": 0.02146769341330877,
+          "min": 0.0010587500000000002,
+          "max": 0.10245125,
+          "p25": 0.00321,
+          "p75": 0.04245,
+          "p90": 0.052070624999999995,
+          "p95": 0.0597759375
+        },
+        "prompt_cost_summary": {
+          "count": 1086,
+          "sum": 4.701217499999999,
+          "mean": 0.00432892955801105,
+          "median": 0.00121,
+          "std": 0.005483663598786051,
+          "min": 0.00032750000000000005,
+          "max": 0.0180575,
+          "p25": 0.0007025000000000001,
+          "p75": 0.0110015625,
+          "p90": 0.0135475,
+          "p95": 0.014568125
+        },
+        "completion_cost_summary": {
+          "count": 1086,
+          "sum": 22.849010000000018,
+          "mean": 0.021039604051565377,
+          "median": 0.01685,
+          "std": 0.019023103524581496,
+          "min": 0.00019,
+          "max": 0.08978,
+          "p25": 0.00253,
+          "p75": 0.036957500000000004,
+          "p90": 0.047170000000000004,
+          "p95": 0.05305
+        }
+      },
+      "retain_external": {
+        "event_count": 1548,
+        "total_cost_summary": {
+          "count": 1548,
+          "sum": 13.702858750000004,
+          "mean": 0.008851975936692506,
+          "median": 0.0029950000000000003,
+          "std": 0.013200370606379927,
+          "min": 0.0009100000000000001,
+          "max": 0.0651975,
+          "p25": 0.0022728125000000005,
+          "p75": 0.0047462500000000005,
+          "p90": 0.03355825,
+          "p95": 0.04057974999999999
+        },
+        "prompt_cost_summary": {
+          "count": 1548,
+          "sum": 1.7874887499999998,
+          "mean": 0.0011547084948320414,
+          "median": 0.00049,
+          "std": 0.0025872116839358262,
+          "min": 0.00032500000000000004,
+          "max": 0.02039875,
+          "p25": 0.00034500000000000004,
+          "p75": 0.0007565625,
+          "p90": 0.00121625,
+          "p95": 0.0013014999999999988
+        },
+        "completion_cost_summary": {
+          "count": 1548,
+          "sum": 11.915369999999967,
+          "mean": 0.007697267441860466,
+          "median": 0.00253,
+          "std": 0.01238812261297939,
+          "min": 0.00046,
+          "max": 0.06399,
+          "p25": 0.00185,
+          "p75": 0.004112500000000001,
+          "p90": 0.03140699999999999,
+          "p95": 0.03920049999999998
+        }
+      },
+      "retain_internal": {
+        "event_count": 0,
+        "total_cost_summary": {
+          "count": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "min": null,
+          "max": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "p95": null
+        },
+        "prompt_cost_summary": {
+          "count": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "min": null,
+          "max": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "p95": null
+        },
+        "completion_cost_summary": {
+          "count": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "min": null,
+          "max": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "p95": null
+        }
+      },
+      "derived": {
+        "event_count": 0,
+        "total_cost_summary": {
+          "count": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "min": null,
+          "max": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "p95": null
+        },
+        "prompt_cost_summary": {
+          "count": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "min": null,
+          "max": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "p95": null
+        },
+        "completion_cost_summary": {
+          "count": 0,
+          "sum": 0.0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "min": null,
+          "max": null,
+          "p25": null,
+          "p75": null,
+          "p90": null,
+          "p95": null
+        }
+      }
+    },
+    "by_dataset_by_type": {
+      "forget": {
+        "claim_extraction": {
+          "event_count": 102,
+          "total_cost_summary": {
+            "count": 102,
+            "sum": 2.729378749999999,
+            "mean": 0.02675861519607843,
+            "median": 0.027046874999999998,
+            "std": 0.005204023465549485,
+            "min": 0.0095025,
+            "max": 0.04059125,
+            "p25": 0.023935,
+            "p75": 0.0299971875,
+            "p90": 0.032697125,
+            "p95": 0.0347391875
+          },
+          "prompt_cost_summary": {
+            "count": 102,
+            "sum": 1.25957875,
+            "mean": 0.012348811274509803,
+            "median": 0.012446875,
+            "std": 0.0024390005083438004,
+            "min": 0.00174375,
+            "max": 0.017073750000000002,
+            "p25": 0.0116271875,
+            "p75": 0.013448125000000002,
+            "p90": 0.01475425,
+            "p95": 0.015539124999999997
+          },
+          "completion_cost_summary": {
+            "count": 102,
+            "sum": 1.4698000000000002,
+            "mean": 0.014409803921568628,
+            "median": 0.014215,
+            "std": 0.003940276933731236,
+            "min": 0.00733,
+            "max": 0.024980000000000002,
+            "p25": 0.011627499999999999,
+            "p75": 0.0167275,
+            "p90": 0.019537000000000002,
+            "p95": 0.0215295
+          }
+        },
+        "cs_paper_filter": {
+          "event_count": 262,
+          "total_cost_summary": {
+            "count": 262,
+            "sum": 0.9269812500000001,
+            "mean": 0.003538096374045802,
+            "median": 0.003054375,
+            "std": 0.0018431855122460264,
+            "min": 0.0010587500000000002,
+            "max": 0.012145000000000001,
+            "p25": 0.0024575,
+            "p75": 0.004108125000000001,
+            "p90": 0.005790000000000001,
+            "p95": 0.006937062499999994
+          },
+          "prompt_cost_summary": {
+            "count": 262,
+            "sum": 0.16171125000000003,
+            "mean": 0.0006172185114503817,
+            "median": 0.000613125,
+            "std": 0.00018507683109272809,
+            "min": 0.00032750000000000005,
+            "max": 0.0025924999999999998,
+            "p25": 0.00054375,
+            "p75": 0.0006762500000000001,
+            "p90": 0.00074625,
+            "p95": 0.000813375
+          },
+          "completion_cost_summary": {
+            "count": 262,
+            "sum": 0.7652699999999998,
+            "mean": 0.00292087786259542,
+            "median": 0.0025,
+            "std": 0.0018292497294980568,
+            "min": 0.0005600000000000001,
+            "max": 0.01149,
+            "p25": 0.00186,
+            "p75": 0.0032375000000000004,
+            "p90": 0.005099,
+            "p95": 0.006313499999999994
+          }
+        },
+        "derived_question_generation": {
+          "event_count": 100,
+          "total_cost_summary": {
+            "count": 100,
+            "sum": 4.485651249999998,
+            "mean": 0.0448565125,
+            "median": 0.043436875,
+            "std": 0.00784080403501253,
+            "min": 0.02689,
+            "max": 0.0657325,
+            "p25": 0.039394375,
+            "p75": 0.05003031250000001,
+            "p90": 0.056299125000000005,
+            "p95": 0.059173624999999994
+          },
+          "prompt_cost_summary": {
+            "count": 100,
+            "sum": 0.21205125000000002,
+            "mean": 0.0021205125,
+            "median": 0.002110625,
+            "std": 0.00027143243260294083,
+            "min": 0.0015137500000000001,
+            "max": 0.00291375,
+            "p25": 0.0019375000000000002,
+            "p75": 0.0022884375,
+            "p90": 0.0024540000000000005,
+            "p95": 0.0025400625
+          },
+          "completion_cost_summary": {
+            "count": 100,
+            "sum": 4.273599999999999,
+            "mean": 0.042736,
+            "median": 0.04139999999999999,
+            "std": 0.0077951264261716755,
+            "min": 0.0245,
+            "max": 0.06343,
+            "p25": 0.037250000000000005,
+            "p75": 0.047697500000000004,
+            "p90": 0.05383000000000001,
+            "p95": 0.05629449999999999
+          }
+        },
+        "paper_type_filter": {
+          "event_count": 202,
+          "total_cost_summary": {
+            "count": 202,
+            "sum": 0.6377537500000002,
+            "mean": 0.0031571967821782177,
+            "median": 0.00279125,
+            "std": 0.0010875484693657767,
+            "min": 0.00163,
+            "max": 0.00722625,
+            "p25": 0.0024278125000000003,
+            "p75": 0.0036390625,
+            "p90": 0.004638499999999999,
+            "p95": 0.0053379375
+          },
+          "prompt_cost_summary": {
+            "count": 202,
+            "sum": 0.15414374999999989,
+            "mean": 0.0007630878712871287,
+            "median": 0.000761875,
+            "std": 0.00019323066620058023,
+            "min": 0.00047375,
+            "max": 0.00273875,
+            "p25": 0.0007025000000000001,
+            "p75": 0.0008225000000000001,
+            "p90": 0.000891875,
+            "p95": 0.0009379374999999999
+          },
+          "completion_cost_summary": {
+            "count": 202,
+            "sum": 0.48360999999999954,
+            "mean": 0.0023941089108910894,
+            "median": 0.001955,
+            "std": 0.001071907916846323,
+            "min": 0.00115,
+            "max": 0.00653,
+            "p25": 0.00184,
+            "p75": 0.0026750000000000003,
+            "p90": 0.003829,
+            "p95": 0.0045285
+          }
+        },
+        "qa_generation": {
+          "event_count": 217,
+          "total_cost_summary": {
+            "count": 217,
+            "sum": 8.719622500000003,
+            "mean": 0.04018259216589862,
+            "median": 0.04005625,
+            "std": 0.009328533979359408,
+            "min": 0.021085,
+            "max": 0.06356375,
+            "p25": 0.03255374999999999,
+            "p75": 0.0466125,
+            "p90": 0.05211875,
+            "p95": 0.058899
+          },
+          "prompt_cost_summary": {
+            "count": 217,
+            "sum": 0.26510249999999996,
+            "mean": 0.0012216705069124424,
+            "median": 0.00121625,
+            "std": 2.3740515083398415e-05,
+            "min": 0.0011825,
+            "max": 0.00132,
+            "p25": 0.00120375,
+            "p75": 0.001235,
+            "p90": 0.0012585,
+            "p95": 0.0012712499999999998
+          },
+          "completion_cost_summary": {
+            "count": 217,
+            "sum": 8.454520000000002,
+            "mean": 0.038960921658986174,
+            "median": 0.03886,
+            "std": 0.009316845606414787,
+            "min": 0.01989,
+            "max": 0.06228,
+            "p25": 0.031349999999999996,
+            "p75": 0.04537,
+            "p90": 0.050912,
+            "p95": 0.057634
+          }
+        },
+        "retain_internal_generation": {
+          "event_count": 100,
+          "total_cost_summary": {
+            "count": 100,
+            "sum": 4.11165125,
+            "mean": 0.0411165125,
+            "median": 0.041184374999999995,
+            "std": 0.00620156938377043,
+            "min": 0.02431375,
+            "max": 0.05564875,
+            "p25": 0.0373225,
+            "p75": 0.044834687500000005,
+            "p90": 0.049353999999999995,
+            "p95": 0.0509768125
+          },
+          "prompt_cost_summary": {
+            "count": 100,
+            "sum": 1.3415812500000004,
+            "mean": 0.0134158125,
+            "median": 0.013420000000000001,
+            "std": 0.002235711452584781,
+            "min": 0.00305375,
+            "max": 0.0180575,
+            "p25": 0.012603437500000002,
+            "p75": 0.0144678125,
+            "p90": 0.015806375,
+            "p95": 0.016544375
+          },
+          "completion_cost_summary": {
+            "count": 100,
+            "sum": 2.7700699999999987,
+            "mean": 0.0277007,
+            "median": 0.027409999999999997,
+            "std": 0.005307061381781824,
+            "min": 0.01659,
+            "max": 0.04231,
+            "p25": 0.0240725,
+            "p75": 0.030965,
+            "p90": 0.035113000000000005,
+            "p95": 0.037263500000000005
+          }
+        },
+        "verbatim_claim_extraction": {
+          "event_count": 103,
+          "total_cost_summary": {
+            "count": 103,
+            "sum": 5.939188750000003,
+            "mean": 0.057662026699029124,
+            "median": 0.057055,
+            "std": 0.015641076172645096,
+            "min": 0.0010724999999999999,
+            "max": 0.10245125,
+            "p25": 0.04733812500000001,
+            "p75": 0.06670937500000002,
+            "p90": 0.07734625,
+            "p95": 0.08514462499999999
+          },
+          "prompt_cost_summary": {
+            "count": 103,
+            "sum": 1.3070487499999994,
+            "mean": 0.012689793689320389,
+            "median": 0.01288625,
+            "std": 0.0026937797263530405,
+            "min": 0.0008824999999999999,
+            "max": 0.01752375,
+            "p25": 0.012034375,
+            "p75": 0.013889375,
+            "p90": 0.015197,
+            "p95": 0.015982999999999997
+          },
+          "completion_cost_summary": {
+            "count": 103,
+            "sum": 4.632140000000001,
+            "mean": 0.04497223300970874,
+            "median": 0.04485,
+            "std": 0.014500359816897403,
+            "min": 0.00019,
+            "max": 0.08978,
+            "p25": 0.034475000000000006,
+            "p75": 0.05319,
+            "p90": 0.064376,
+            "p95": 0.07131099999999999
+          }
+        }
+      },
+      "retain_external": {
+        "claim_extraction": {
+          "event_count": 75,
+          "total_cost_summary": {
+            "count": 75,
+            "sum": 2.01701,
+            "mean": 0.026893466666666668,
+            "median": 0.02727375,
+            "std": 0.006306578115260993,
+            "min": 0.00924625,
+            "max": 0.0414075,
+            "p25": 0.0234225,
+            "p75": 0.029960624999999998,
+            "p90": 0.034758500000000005,
+            "p95": 0.037916000000000005
+          },
+          "prompt_cost_summary": {
+            "count": 75,
+            "sum": 0.8959700000000004,
+            "mean": 0.011946266666666667,
+            "median": 0.01272625,
+            "std": 0.0037454762408211262,
+            "min": 0.0007962500000000001,
+            "max": 0.02039875,
+            "p25": 0.011365625,
+            "p75": 0.013655625000000001,
+            "p90": 0.0153685,
+            "p95": 0.016272250000000002
+          },
+          "completion_cost_summary": {
+            "count": 75,
+            "sum": 1.12104,
+            "mean": 0.0149472,
+            "median": 0.015009999999999999,
+            "std": 0.0038224011859911656,
+            "min": 0.00736,
+            "max": 0.026019999999999998,
+            "p25": 0.012385,
+            "p75": 0.016735,
+            "p90": 0.019874000000000006,
+            "p95": 0.022420000000000002
+          }
+        },
+        "cs_paper_filter": {
+          "event_count": 665,
+          "total_cost_summary": {
+            "count": 665,
+            "sum": 2.0302699999999985,
+            "mean": 0.0030530375939849625,
+            "median": 0.00276625,
+            "std": 0.0014472727747349315,
+            "min": 0.0009100000000000001,
+            "max": 0.01155875,
+            "p25": 0.0021725,
+            "p75": 0.00351125,
+            "p90": 0.00483025,
+            "p95": 0.0060062499999999994
+          },
+          "prompt_cost_summary": {
+            "count": 665,
+            "sum": 0.28977999999999987,
+            "mean": 0.00043575939849624064,
+            "median": 0.00034125000000000003,
+            "std": 0.0001665910739142673,
+            "min": 0.00032500000000000004,
+            "max": 0.0021825,
+            "p25": 0.00033625,
+            "p75": 0.00055125,
+            "p90": 0.00064875,
+            "p95": 0.00070375
+          },
+          "completion_cost_summary": {
+            "count": 665,
+            "sum": 1.7404899999999994,
+            "mean": 0.002617278195488722,
+            "median": 0.0020399999999999997,
+            "std": 0.001432337473116229,
+            "min": 0.0005600000000000001,
+            "max": 0.01091,
+            "p25": 0.00184,
+            "p75": 0.00316,
+            "p90": 0.00444,
+            "p95": 0.0056679999999999986
+          }
+        },
+        "paper_type_filter": {
+          "event_count": 607,
+          "total_cost_summary": {
+            "count": 607,
+            "sum": 1.8222124999999996,
+            "mean": 0.003001997528830313,
+            "median": 0.002925,
+            "std": 0.001020350978351028,
+            "min": 0.0009350000000000001,
+            "max": 0.0081575,
+            "p25": 0.002321875,
+            "p75": 0.003643125,
+            "p90": 0.0042955,
+            "p95": 0.004916749999999999
+          },
+          "prompt_cost_summary": {
+            "count": 607,
+            "sum": 0.3572724999999998,
+            "mean": 0.0005885873146622735,
+            "median": 0.00048875,
+            "std": 0.00017100931057595112,
+            "min": 0.00047125,
+            "max": 0.00232875,
+            "p25": 0.0004825,
+            "p75": 0.00071375,
+            "p90": 0.00079675,
+            "p95": 0.0008512500000000002
+          },
+          "completion_cost_summary": {
+            "count": 607,
+            "sum": 1.464940000000001,
+            "mean": 0.0024134102141680396,
+            "median": 0.00242,
+            "std": 0.0010314498048517046,
+            "min": 0.00046,
+            "max": 0.007670000000000001,
+            "p25": 0.001825,
+            "p75": 0.0031450000000000002,
+            "p90": 0.0037999999999999996,
+            "p95": 0.004413999999999999
+          }
+        },
+        "qa_generation": {
+          "event_count": 201,
+          "total_cost_summary": {
+            "count": 201,
+            "sum": 7.83336625,
+            "mean": 0.03897197139303483,
+            "median": 0.037063750000000006,
+            "std": 0.008590554245261834,
+            "min": 0.023555,
+            "max": 0.0651975,
+            "p25": 0.03304875,
+            "p75": 0.0436825,
+            "p90": 0.05140125,
+            "p95": 0.05561625
+          },
+          "prompt_cost_summary": {
+            "count": 201,
+            "sum": 0.24446625000000013,
+            "mean": 0.00121625,
+            "median": 0.00121125,
+            "std": 2.0027965522865144e-05,
+            "min": 0.00117875,
+            "max": 0.0013050000000000002,
+            "p25": 0.00120375,
+            "p75": 0.00122375,
+            "p90": 0.00124125,
+            "p95": 0.0012537499999999999
+          },
+          "completion_cost_summary": {
+            "count": 201,
+            "sum": 7.588899999999996,
+            "mean": 0.037755721393034826,
+            "median": 0.035840000000000004,
+            "std": 0.008581759239443343,
+            "min": 0.02235,
+            "max": 0.06399,
+            "p25": 0.03185,
+            "p75": 0.04247,
+            "p90": 0.05016,
+            "p95": 0.05438
+          }
+        }
+      },
+      "retain_internal": {},
+      "derived": {}
+    }
+  }
+}
