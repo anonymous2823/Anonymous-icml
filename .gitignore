@@ -8,3 +8,7 @@ SciUnlearn/run_all.py
 SciUnlearn/olmo_run.py
 SciUnlearn/llm_evaluation_report.py
 SciUnlearn/clone_with_human_scores.py
+SciUnlearn/derived_main.py
+Experiments/unlearn_ga_7B.py
+Experiments/unlearn_npo_rt_kl_7B.py
+
